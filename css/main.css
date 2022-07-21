@@ -1,0 +1,37 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.converter-body{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+   top: 50%; 
+   left: 50%;
+   text-align: center;
+   transform: translate(-50%, -50%);
+   box-shadow: 0px 0px 2px 1px #cacaca;
+}
+.type{
+    display: flex;
+    justify-content: space-around;
+}
+
+#inputType, #resultType{
+    width: 160px;
+    margin-top: 10px;
+    color: rgb(104, 6, 196);
+}
+
+input{
+    height: 25px;
+    text-align: center;
+}
